@@ -5,7 +5,7 @@ const {Schema, model} = mongoose;
 const orderSchema = new Schema({
     dateCreated:{type:Date, default:Date.now},
     name:{type:String, required:true},
-    totalPrive:{type:Number, required:true}
+    totalPrice:{type:Number, required:true}
 });
 
 const Order = model('Order', orderSchema);

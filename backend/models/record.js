@@ -7,7 +7,7 @@ const recordSchema = new Schema({
     title: String,
     releaseDate: Date,
     price: Number,
-    stock: Number
+    stockQuantity: Number
 });
 
 const Record = model('Record', recordSchema);
